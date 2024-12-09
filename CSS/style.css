@@ -1,0 +1,116 @@
+:root {
+  --main-color: #06a3da;
+  --bg-color: #1e202b;
+  --text-color: #bfc1c8;
+}
+
+.bgColor {
+  background-color: var(--bg-color) !important;
+}
+.btn-color {
+  background-color: var(--main-color) !important ;
+}
+.text-color {
+  color: var(--main-color);
+}
+.main-text-color {
+  color: var(--text-color);
+}
+.card-body-color {
+  background-color: #323544;
+}
+.card-header-color {
+  background-color: #2d303d;
+}
+.mid-card-header {
+  background-color: #222530;
+}
+.mid-card-body {
+  background-color: #262936;
+}
+
+/* -------- start nav -------- */
+h1 {
+  font-size: 20px;
+}
+
+nav i{
+    color: var(--main-color);
+}
+
+nav span {
+  font-size: 10px;
+}
+
+nav figure {
+  width: 25%;
+}
+
+nav li a {
+  border: 1px solid transparent;
+  border-radius: 40px;
+  color: #fff !important;
+  transition: all 0.3s;
+}
+
+nav li:hover a,
+li .active {
+  color: var(--main-color) !important;
+  border: 1px solid var(--main-color);
+}
+
+/* -------- End nav -------- */
+
+/* -------- start Section -------- */
+section {
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+}
+
+button {
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+}
+
+::placeholder {
+  color: var(--text-color) !important;
+  padding-left: 10px;
+}
+
+.temp {
+  font-size: 70px;
+}
+
+.card {
+ min-height: 420px;
+}
+/* -------- End Section -------- */
+
+/* -------- Start footer -------- */
+.icons {
+  background-color: var(--bg-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-color);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.icons:hover {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.form-control {
+  color: #fff !important;
+}
+/* -------- End footer -------- */
+
+section .card1-img{
+    width: 25%;
+}
