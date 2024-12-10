@@ -3,7 +3,7 @@ var searchInput = document.getElementById("searchInput");
 
 async function getWeather(city) {
   var response = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=4a69453bb8de40cc9f3224929240712&q=${city}&days=3`
+    `https://api.weatherapi.com/v1/forecast.json?key=4a69453bb8de40cc9f3224929240712&q=${city}&days=3`
   );
   console.log(response.status);
   
